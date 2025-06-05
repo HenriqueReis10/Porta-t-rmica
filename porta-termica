@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PortaMais - Porta Térmica e Porta Cerveja em Madeira</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #4a2f0e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .gallery img {
+            max-width: 280px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+        }
+        h2 {
+            color: #4a2f0e;
+            margin-bottom: 10px;
+        }
+        p {
+            line-height: 1.5;
+        }
+        .price {
+            font-size: 1.8em;
+            color: #b33a3a;
+            margin: 15px 0;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btn {
+            display: inline-block;
+            background: #4a2f0e;
+            color: white;
+            padding: 15px 30px;
+            margin: 10px 5px 10px 0;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+            text-align: center;
+        }
+        .btn:hover {
+            background: #6a4620;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #777;
+            padding-bottom: 20px;
+        }
+        @media (max-width: 600px) {
+            .gallery img {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>PortaMais</header>
+    <main>
+        <div class="gallery">
+            <img src="https://chatgpt.com/s/m_6841aa5aee808191a9c79554e62c228d/1.jpg" alt="Porta Térmica 1" />
+            <img src="https://chatgpt.com/s/m_6841aa5aee808191a9c79554e62c228d/2.jpg" alt="Porta Térmica 2" />
+            <img src="https://chatgpt.com/s/m_6841aa5aee808191a9c79554e62c228d/3.jpg" alt="Porta Térmica 3" />
+        </div>
+        <h2>Porta Térmica em Madeira Maciça</h2>
+        <p>Produto feito 100% em madeira maciça, cuidadosamente trabalhado para garantir resistência, beleza e funcionalidade. Um item indispensável para quem valoriza qualidade e design rústico em seus acessórios.</p>
+        <p><strong>Características:</strong></p>
+        <ul>
+            <li>Madeira maciça de alta qualidade;</li>
+            <li>Acabamento artesanal e único;</li>
+            <li>Design ergonômico para facilitar o manuseio;</li>
+            <li>Capacidade para garrafas e copos;</li>
+            <li>Ideal para churrascos, clubes, festas e encontros com amigos;</li>
+            <li>Facilita o transporte e conservação das bebidas;</li>
+            <li>Produto exclusivo para amantes de chimarrão e cerveja.</li>
+        </ul>
+        <p>Esse produto é um facilitador essencial para quem gosta de reunir a galera, garantindo praticidade e estilo ao mesmo tempo.</p>
+
+        <div class="price">R$ 250,00</div>
+
+        <a href="https://wa.me/554998808361" target="_blank" class="btn">Fale conosco no WhatsApp</a>
+        <a href="https://www.mercadopago.com.br/checkout/v1/redirect?pref_id=SEU_PREFERENCE_ID" target="_blank" class="btn">Comprar com Mercado Pago</a>
+
+        <p><em>Frete por conta do cliente.</em></p>
+    </main>
+    <footer>
+        © 2025 PortaMais - Todos os direitos reservados
+    </footer>
+</body>
+</html>
